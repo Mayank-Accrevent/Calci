@@ -26,7 +26,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         run: |
           mvn clean verify sonar:sonar \
-          -Dsonar.projectKey=calci \
+          -Dsonar.projectKey=Mayank-Accrevent_Calci \
           -Dsonar.organization=mayank-accrevent \
           -Dsonar.host.url=$SONAR_HOST_URL \
           -Dsonar.login=$SONAR_TOKEN
