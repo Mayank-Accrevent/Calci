@@ -35,8 +35,8 @@ public class Calculator extends HttpServlet
         PrintWriter out= response.getWriter();
         int a1= Integer.parseInt(request.getParameter("n1"));        
 		int a2= Integer.parseInt(request.getParameter("n2"));
-        int a3= Integer.parseInt(request.getParameter("n3"));
-		int op = 10;
+        
+		
 			
         
         
